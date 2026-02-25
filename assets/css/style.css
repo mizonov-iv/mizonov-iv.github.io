@@ -359,7 +359,7 @@ main {
 }
 .title-company-name {
     color: var(--white-1);
-    padding-left: 4rem;
+    padding-left: 2.7rem;
     font-size: var(--fs-4);
     line-height: 1.3;
     margin-bottom: 1rem;
@@ -369,13 +369,13 @@ main {
 .title-company-tech {
     margin: 1rem 0;
     color: var(--white-1);
-    padding-left: 4rem;
+    padding-left: 2.7rem;
     font-size: var(--fs-4);
     line-height: 1;
 }
 .title-company-descr {
     color: var(--white-1);
-    padding-left: 4rem;
+    padding-left: 2.7rem;
     font-size: var(--fs-5);
     line-height: 1.2;
     margin-bottom: 7px;
@@ -492,6 +492,16 @@ textarea.form-input::-webkit-resizer { display: none; }
     .blog-banner-box { height: auto; }
 }
 @media (min-width: 580px) {
+    .title-company-name {
+        padding-left: 4rem;
+    }
+
+    .title-company-tech {
+        padding-left: 4rem;
+    }
+    .title-company-descr {
+        padding-left: 4rem;
+    }
     :root {
         --fs-1: 32px;
         --fs-2: 24px;
