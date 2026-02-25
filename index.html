@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I. Mizonov</title>
+    <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+<main>
+    <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+            <figure class="avatar-box">
+                <img src="./assets/images/my-avatar.jpg" alt="Mizonov Ilya" width="80">
+            </figure>
+            <div class="info-content">
+                <h1 class="name" title="Mizonov Ilya">Илья Мизонов</h1>
+                <p class="title">Frontend Developer</p>
+                <a class="resume-btn" href="https://drive.google.com/file/d/1nmOPmtV0AJPLitKpyLiNc0xxqvlEMfPF/view?usp=drive_link" target="_blank">
+                    <span>Скачать резюме</span>
+                </a>
+            </div>
+            <button class="info_more-btn" data-sidebar-btn>
+                <span>Show Contacts</span>
+                <ion-icon name="chevron-down"></ion-icon>
+            </button>
+        </div>
+        <div class="sidebar-info_more">
+            <div class="separator"></div>
+            <ul class="contacts-list">
+                <li class="contact-item">
+                    <div class="icon-box">
+                        <ion-icon name="phone-portrait-outline"></ion-icon>
+                    </div>
+                    <div class="contact-info">
+                        <p class="contact-title">Phone</p>
+                        <a href="tel:+79827012325" class="contact-link">+7-982-701-23-25</a>
+                    </div>
+                </li>
+                <li class="contact-item">
+                    <div class="icon-box">
+                        <ion-icon name="paper-plane-outline"></ion-icon>
+                    </div>
+                    <div class="contact-info">
+                        <p class="contact-title">Telegram</p>
+                        <a target="_blank" href="https://t.me/mizonov_iv" class="contact-link">@mizonov_iv</a>
+                    </div>
+                </li>
+                <li class="contact-item">
+                    <div class="icon-box">
+                        <ion-icon name="logo-github"></ion-icon>
+                    </div>
+                    <div class="contact-info">
+                        <p class="contact-title">Github</p>
+                        <a target="_blank" href="https://github.com/mizonov-iv" class="contact-link">mizonov-iv</a>
+                    </div>
+                </li>
+                <li class="contact-item">
+                    <div class="icon-box">
+                        <ion-icon name="mail-outline"></ion-icon>
+                    </div>
+                    <div class="contact-info">
+                        <p class="contact-title">Email</p>
+                        <a href="mailto:richard@example.com" class="contact-link">mizonov.iv@google.com</a>
+                    </div>
+                </li>
+                <li class="contact-item">
+                    <div class="icon-box">
+                        <ion-icon name="calendar-outline"></ion-icon>
+                    </div>
+                    <div class="contact-info">
+                        <p class="contact-title">Birthday</p>
+                        <time datetime="1982-06-23">February 27, 1994</time>
+                    </div>
+                </li>
+                <li class="contact-item">
+                    <div class="icon-box">
+                        <ion-icon name="location-outline"></ion-icon>
+                    </div>
+                    <div class="contact-info">
+                        <p class="contact-title">Location</p>
+                        <address>Екатеринбург</address>
+                    </div>
+                </li>
+            </ul>
+            <div class="separator"></div>
+        </div>
+    </aside>
+    <div class="main-content">
+        <nav class="navbar">
+            <ul class="navbar-list">
+                <li class="navbar-item">
+                    <button class="navbar-link active" data-nav-link>About</button>
+                </li>
+                <li class="navbar-item">
+                    <button class="navbar-link" data-nav-link>Contact</button>
+                </li>
+            </ul>
+        </nav>
+        <article class="about active" data-page="about">
+            <header>
+                <h2 class="h2 article-title">Обо мне:</h2>
+            </header>
+            <section class="about-text">
+                <p>Frontend-разработчик с опытом коммерческой разработки более 3 лет.</p>
+                <p>Специализируюсь как на создании SPA-приложений с полного нуля, так и на поддержании уже существующих. Быстро адаптируюсь к новым условиям, осваиваю незнакомые технологии.</p>
+                <p>Стэк: Vue.js, Vite, Pinia, Vuex, Webpack, VueRouter, Vuelidate, Vuetify, axios, JavaScript, TypeScript, Tailwind, SCSS, vue-datepicker, vue-cookies, vue-debounce, vue-the-mask, Figma, Bitbucket, Eslint, Prettier, nginx, GitHub, SemaphoreCI</p>
+            </section>
+            <section class="timeline">
+                <div class="title-wrapper">
+                    <div class="icon-box">
+                        <ion-icon name="book-outline"></ion-icon>
+                    </div>
+                    <h3 class="h3">Опыт работы:</h3>
+                </div>
+                <p class="title-company-name">Simple Protect / Frontend-разработчик</p>
+                <p class="title-company-tech">Financial Technology:</p>
+                <p class="title-company-descr">Стек: Vue 3, Vite, Pinia, VueRouter, Vuelidate, axios, JavaScript, Tailwind, SCSS, vue-datepicker, vue-cookies, vue-debounce, vue-the-mask, Figma, Bitbucket, Eslint, Prettier, nginx.</p>
+                <p class="title-company-descr">Команда: 1 team lead, 1 frontend, 1 backend, 1 testing, 1 designer</p>
+                <ol class="timeline-list">
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">Онлайн-сервис и Личный кабинет для подбора и покупки страховых услуг</h4>
+                        <button class="more-btn" data-more-btn>Подробнее</button>
+                        <div data-more-content>
+                            <ul class="more-list">
+                                <li class="more-list-item">- разработал и поддерживал UI-kit проекта согласно брендбуку заказчика, что упростило и ускорило разработку при масштабировании проекта;</li>
+                                <li class="more-list-item">- обеспечил переиспользуемость компонентов для ускорения добавления нового функционала в сжатые сроки;</li>
+                                <li class="more-list-item">- интегрировал REST API и проектировал API-контракты совместно с backend-разработчиком;</li>
+                                <li class="more-list-item">- валидировал данные с использованием Vuelidate для их корректной отправки на backend;</li>
+                                <li class="more-list-item">- интегрировал SSR и оптимизировал верстку согласно seo-требованиям, что позволило избежать ошибки при индексировании сайта;</li>
+                                <li class="more-list-item">- осуществлял рефакторинг кодовой базы для ускорения работы</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">Лэндинги дополнительных услуг и интеграций со сторонними сервисами</h4>
+                        <button class="more-btn" data-more-btn>Подробнее</button>
+                        <div data-more-content>
+                            <ul class="more-list">
+                                <li class="more-list-item">- в сжатые сроки разрабатывал и поддерживал лэндинги услуг и интеграций (Литрес, Читай-город, Студия дизайна интерьеров, ИТ-Помощник, Защита телефона, VPN-сервис);</li>
+                                <li class="more-list-item">- интегрировал API сторонних сервисов (Литрес, Читай-город);</li>
+                                <li class="more-list-item">- разрабатывал и настраивал формы обратной связи.</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">MVP VPN-сервиса для защиты пользователя в интернете:</h4>
+                        <button class="more-btn" data-more-btn>Подробнее</button>
+                        <div data-more-content>
+                            <ul class="more-list">
+                                <li class="more-list-item">- на основе ранее созданного UI-kit разработал SPA и лэндинг услуги.</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">SPA и Telegram-бот для организации работы отдела продаж</h4>
+                        <button class="more-btn" data-more-btn>Подробнее</button>
+                        <div data-more-content>
+                            <ul class="more-list">
+                                <li class="more-list-item">- разработал SPA-приложение для отчетности</li>
+                                <li class="more-list-item">- интегрировал API Telegram для отправки отчетности и напоминаний</li>
+                                <li class="more-list-item">- осуществлял deploy SPA на nginx сервер</li>
+                            </ul>
+                        </div>
+                    </li>
+                </ol>
+                <p class="title-company-tech">Advertising Technology:</p>
+                <p class="title-company-descr">Стек: Vue 2, Vue 3, Webpack, Pinia, Vuetify, VueRouter, axios, JavaScript, TypeScript, Figma, GitHub, Eslint, Prettier, SemaphoreCI.</p>
+                <p class="title-company-descr">Команда: 1 product, 1 teamlead, 2 frontend, 3 backend, 1 testing, 1 designer</p>
+                <ol class="timeline-list">
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">Внутренняя административная панель и Личный кабинет рекламодателя:</h4>
+                        <button class="more-btn" data-more-btn>Подробнее</button>
+                        <div data-more-content>
+                            <ul class="more-list">
+                                <li class="more-list-item">- поддерживал и дорабатывал UI-kit под новый функционал;</li>
+                                <li class="more-list-item">- интегрировал REST API и разрабатывал API-контракты совместно с бэкенд-командой;</li>
+                                <li class="more-list-item">- рефакторил легаси код, переписывал компоненты с Options API на Composition API, что помогло ускорить разработку новых фичей;</li>
+                                <li class="more-list-item">- разработал компоненты, обеспечивающие ускорение работы админки и личного кабинета рекламодателя;</li>
+                                <li class="more-list-item">- рефакторил API-контракты для избавления от ненужных запросов и передаваемых данных в целях ускорения работы приложения;</li>
+                                <li class="more-list-item">- участвовал в миграции с Vue 2 на Vue 3;</li>
+                                <li class="more-list-item">- написал новый стор для одной из ключевых сущностей админки;</li>
+                                <li class="more-list-item">- переписал крупный раздел под новый дизайн и стор, что позволило ускорить работу и улучшить UX</li>
+                            </ul>
+                        </div>
+                    </li>
+                </ol>
+            </section>
+            <section class="timeline">
+                <div class="title-wrapper">
+                    <div class="icon-box">
+                        <ion-icon name="book-outline"></ion-icon>
+                    </div>
+                    <h3 class="h3">Образование</h3>
+                </div>
+                <ol class="timeline-list">
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">Уральский федеральный университет им. Б.Н. Ельцина, Строительный институт</h4>
+                        <span>2010 — 2015</span>
+                        <p class="timeline-text">Инженер-проектировщик, закончил с отличием.</p>
+                    </li>
+                </ol>
+            </section>
+        </article>
+        <article class="contact" data-page="contact">
+            <header>
+                <h2 class="h2 article-title">Contact</h2>
+                <ul class="contacts-list contact">
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Phone</p>
+                            <a href="tel:+79827012325" class="contact-link">+7-982-701-23-25</a>
+                        </div>
+                    </li>
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="paper-plane-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Telegram</p>
+                            <a href="https://t.me/mizonov_iv" class="contact-link">@mizonov_iv</a>
+                        </div>
+                    </li>
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+                            <a href="mailto:richard@example.com" class="contact-link">mizonov.iv@google.com</a>
+                        </div>
+                    </li>
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Github</p>
+                            <a target="_blank" href="https://github.com/mizonov-iv" class="contact-link">mizonov-iv</a>
+                        </div>
+                    </li>
+                </ul>
+            </header>
+        </article>
+    </div>
+</main>
+<script src="./assets/js/script.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
